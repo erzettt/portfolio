@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Projects</title>
+        <link rel="icon" href="assets/mylogo1.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="nav-main">
+                <nav>
+                    <a href="index.html"><img class="mylogo" src="assets/mylogo.png"></a>
+                    <ul class="navbar">
+                        <li><a class="line" href="index.html">Home</a></li>
+                        <li><a class="line" href="index.html #aboutme">About Me</a></li>
+                        <li><a class="line" href="projects.html">My Projects</a></li>
+                        <li><a class="contact" href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="project-container-one">
+
+                <div class="project-one">
+                    <img id="project-one-el" alt="Unit Converter Image" src="projects/unit-converter.png">
+                    <h2>Unit Converter</h2>
+                    <button id="details-project-one" class="details-btn">Details</button>
+                </div>
+
+                <div class="project-two">
+                    <img id="project-two-el" alt="Password Generator Image" src="projects/password-generator.png">
+                    <h2>Password Generator</h2>
+                    <button id="details-project-two" class="details-btn">Details</button>
+                </div>
+
+            </section>
+            <section class="project-container-two">
+
+                <div class="project-three">
+                    <img id="project-three-el" alt="E-Commerce Project Image" src="projects/ecommerce.png">
+                    <h2>E-Commerce Web Design</h2>
+                    <button id="details-project-three" class="details-btn">Details</button>
+                </div>
+
+                <div class="project-four">
+                    <img id="project-four-el" alt="University Schedule Mini Project" src="projects/schedule.png">
+                    <h2>Schedule for University Classes</h2>
+                    <button id="details-project-four" class="details-btn">Details</button>
+                </div>
+
+            </section>
+            <footer>
+                © 2022, <a class="footerr" href="mailto:rayyanzmmm@gmail.com">rayyanzmmm@gmail.com</a>
+            </footer>
+
+        </div>
+
+        <div id="eventlistener-one">
+            <img class="eventlstnr-img" style="width: 400px;" src="projects/unit-converter.png">
+            <h1>Unit Converter</h1>
+            <a href="https://github.com/erzettt/unit-converter/tree/main/unit-converter">Github Repository</a>
+            <a href="https://incomparable-raindrop-0d23ed.netlify.app/">Website's Link</a>
+            <p>Project I made where users can convert metric/imperial unit to :
+                <ul>
+                    <li>Length (Meter/Feet)</li>
+                    <li>Volume (Liters/Gallons)</li>
+                    <li>Mass (Kilograms/Pounds)</li>
+                </ul>
+                This project is done by basic Javascript and HTML, CSS.
+            </p>
+            <button id="close-one">Close</button>
+        </div>
+
+        <div id="eventlistener-two">
+            <img class="eventlstnr-img" style="width: 500px;" src="projects/password-generator.png">
+            <h1>Password Generator</h1>
+            <a href="https://github.com/erzettt/password-generator">Github Repository</a>
+            <a href="https://super-klepon-39c363.netlify.app/">Website's Link</a>
+            <p>Mini project of password generator that let users <br> generates random password with any amount of length</p>
+            <button id="close-two">Close</button>
+        </div>
+
+        <div id="eventlistener-three">
+            <img class="eventlstnr-img" style="width: 550px;" src="projects/ecommerce.png">
+            <h1>E-Commerce Web Design</h1>
+            <a href="https://github.com/erzettt/ecommerce-web">Github Repository</a>
+            <a href="https://reedsid.netlify.app/">Website's Link</a>
+            <p>Just a HTML & CSS mini project on web design <br> for e-commerce without javascript.</p>
+            <button id="close-three">Close</button>
+        </div>
+
+        <div id="eventlistener-four">
+            <img class="eventlstnr-img" style="width: 450px;" src="projects/schedule.png">
+            <h1>Schedule for University Classes</h1>
+            <a href="https://github.com/erzettt/univ-schedule">Github Repository</a>
+            <a href="https://schedulerzm.netlify.app/">Website's Link</a>
+            <p>Had a hard time reading the schedule given by my university so I had to <br> make my own schedule as it is more read-able to my eyes.
+                <br>This project was made by HTML, CSS & JavaScript.
+            </p>
+            <button id="close-four">Close</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
